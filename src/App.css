@@ -1,0 +1,73 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.container-introduce {
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-introduce h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container-introduce img {
+  height: 150px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+.container-button{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.contactme {
+  padding: 10px;
+  background-color: rgb(97, 97, 175);
+  color: white;
+}
+.contactme:hover{
+  background-color: rgb(46, 46, 91);
+}
+.Hireme {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border: 3px solid rgb(97, 97, 175);
+}
+.Hireme:hover{
+  background-color: rgb(206, 206, 232);
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.contact span {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.contact span i {
+  margin-right: 3px;
+  font-size: 18px;
+  color: #3b5998;
+}
+
+
